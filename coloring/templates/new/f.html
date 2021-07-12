@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+      body {
+        font-family: 'Poppins', sans-serif;
+        background: #F1FAEE;
+      }
+      .hello {
+        height: auto;
+        width: 90%;
+        margin: 5% auto;
+      }
+
+      .recent-widgets {
+        background: #E63946;
+        height: auto;
+        width: 90%;
+        margin: 7.9% auto;
+        padding-top: 0em;
+        padding-bottom: 2em;
+        padding-left: 2em;
+        padding-right: 2em;
+        border-radius: 20px;
+      }
+
+      .recommended-widgets {
+        background: #1D3557;
+        height: auto;
+        width: 90%;
+        margin: 7.9% auto;
+        padding-top: 0em;
+        padding-bottom: 2em;
+        padding-left: 2em;
+        padding-right: 2em;
+        border-radius: 20px;
+      }
+
+      .main-widget-text {
+        margin-left: 4px;
+        padding: 4px;
+      }
+
+      .main-widget-stencils {
+        background: white;
+        height: 7em;
+        width: 7em;
+        margin: 0 auto;
+        border-radius: 20px;
+        padding: 15px;
+      }
+
+      .nav-bar {
+        background: #A8DADC;
+        height: 10em;
+        width: 100%;
+        padding: 0 20%
+      }
+
+      .nav-bar-icon {
+        background: #457B9D;
+        height: 7em;
+        width: 7em;
+        margin: 3% auto;
+        padding: 5px;
+        border-radius: 20px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="hello">
+      <div class="row">
+        <div class="col">
+          <h1 style="font-size: 100px; font-weight: bold">hi jane!</h1>
+        </div>
+        <div class="col">
+          <div class="circle" style="float: right; width: 9em; height: 9em; border-radius:50%; padding: 15px; background: #A8DADC">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="7em" height="7em" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M86,6.88c-43.65603,0 -79.12,35.46397 -79.12,79.12c0,43.65603 35.46397,79.12 79.12,79.12c43.65603,0 79.12,-35.46397 79.12,-79.12c0,-43.65603 -35.46397,-79.12 -79.12,-79.12zM86,13.76c39.93779,0 72.24,32.30221 72.24,72.24c0,19.72731 -7.90385,37.57034 -20.69375,50.5989c-6.31199,-4.61055 -14.04726,-6.81707 -20.6064,-9.02328c-3.6978,-1.24378 -7.03291,-2.47186 -9.46672,-3.87c-2.22572,-1.2786 -3.39975,-2.6243 -4.1186,-4.14547c5.48396,-0.71685 10.83515,-1.58481 14.70734,-2.99656c2.36765,-0.86321 4.36645,-1.81431 5.99985,-3.05031c1.63338,-1.23601 3.21828,-3.0031 3.21828,-5.54297c-0.00046,-0.96997 -0.41036,-1.89468 -1.12875,-2.54641c-0.29488,-0.26722 -1.04274,-1.58737 -1.4714,-3.91031c-0.42867,-2.32295 -0.63004,-5.48982 -0.68531,-9.11063c-0.11056,-7.24162 0.31655,-16.31035 -0.06719,-25.21547c-0.38374,-8.90512 -1.49853,-17.69461 -5.2675,-24.66453c-3.63361,-6.71958 -10.41269,-11.35182 -19.80688,-11.36812c-3.0717,-2.1238 -7.20483,-3.56094 -12.53719,-3.56094c-0.08292,-0.00076 -0.16584,0.00148 -0.2486,0.00672c-12.83343,0.92243 -21.73301,6.13286 -27.2714,13.52484c-5.5384,7.39199 -7.82862,16.62891 -8.92922,25.75969c-1.1006,9.13078 -0.99162,18.2665 -1.31016,25.54469c-0.15927,3.63909 -0.43522,6.81303 -0.9339,9.15765c-0.49868,2.34462 -1.26865,3.70165 -1.74687,4.12531c-0.73532,0.65315 -1.15595,1.58977 -1.15563,2.57328c0,2.4927 1.5219,4.68503 3.28547,5.99984c1.76357,1.31481 3.85177,2.14119 6.24844,2.85547c3.87027,1.15346 9.0048,1.81131 14.19672,2.48594c-0.70157,1.58443 -1.93511,2.93624 -4.1925,4.23281c-2.39962,1.37825 -5.68762,2.58894 -9.34578,3.80953c-6.48884,2.16508 -14.16169,4.32945 -20.4586,8.92922c-12.7899,-13.02857 -20.69375,-30.87159 -20.69375,-50.5989c0,-39.93779 32.30221,-72.24 72.24,-72.24zM86.43672,34.49406c4.61591,0.02993 7.99025,1.49357 9.30547,2.62031c0.65473,0.56131 1.49639,0.85626 2.35828,0.82641c7.86674,-0.27871 11.66872,2.59526 14.5125,7.85422c2.84378,5.25896 4.07577,13.21049 4.4411,21.68813c0.36532,8.47763 -0.05539,17.43858 0.06047,25.02734c0.05793,3.79438 0.24424,7.24358 0.79953,10.25281c0.36109,1.95673 1.01089,3.69905 1.91484,5.30109c-0.77513,0.57376 -2.20563,1.3359 -4.12531,2.03578c-3.91459,1.4272 -9.71325,2.66931 -16.25938,3.27875c-1.76778,0.16312 -3.12115,1.64456 -3.12422,3.41985v3.60125c0.00039,0.42036 0.07782,0.83709 0.22844,1.22953c1.39599,3.65041 4.27572,6.18447 7.49813,8.03562c3.22241,1.85116 6.90517,3.15922 10.69625,4.43438c6.23248,2.09634 12.70492,4.17009 17.60312,7.31672c-12.54016,10.49522 -28.68985,16.82375 -46.34594,16.82375c-17.65609,0 -33.80578,-6.32853 -46.34594,-16.82375c4.87511,-3.13309 11.26912,-5.16528 17.43515,-7.22265c3.75203,-1.25191 7.39852,-2.53098 10.59547,-4.36719c3.19695,-1.83621 6.06019,-4.3753 7.4511,-8.01547c0.08216,-0.21292 0.14293,-0.43348 0.1814,-0.65844c0.34728,-2.07603 0.36281,-3.40775 0.36281,-4.35375c-0.00176,-1.74265 -1.30625,-3.20875 -3.03687,-3.41312c-6.57089,-0.78168 -12.49169,-1.66237 -16.42735,-2.83531c-1.96783,-0.58647 -3.41638,-1.27197 -4.09844,-1.78047c-0.56759,-0.42316 -0.45257,-0.38737 -0.43,-0.40313c1.05982,-1.67383 2.22619,-3.27398 2.66734,-5.34812c0.64676,-3.04083 0.90908,-6.49542 1.075,-10.28641c0.33182,-7.58197 0.24194,-16.49974 1.26985,-25.02734c1.0279,-8.52761 3.19188,-16.56313 7.60562,-22.45406c4.39416,-5.8648 10.93554,-9.92007 22.13156,-10.75672z"></path></g></g></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="recent-widgets">
+      <div class="main-widget-text">
+        <br>
+        <h1 style="font-weight: bold; color: white">Recents</h1>
+        <br>
+      </div>
+
+      <div class="row">
+        <div class="main-widget-stencils">
+          <img style="width: 5em; height: 5em" src="https://www.color-a-mandala.com/wp-content/uploads/2019/04/M0113-Thumb-300x300.jpg">
+        </div>
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+      </div>
+    </div>
+
+    <div class="recommended-widgets">
+      <div class="main-widget-text">
+        <br>
+        <h1 style="font-weight: bold; color: white">Recommended</h1>
+        <br>
+      </div>
+
+      <div class="row">
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+        <div class="main-widget-stencils"></div>
+      </div>
+    </div>
+
+    <div class="nav-bar">
+      <div class="row">
+        <div class="nav-bar-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M82.56,30.96v51.6h-51.6v6.88h51.6v51.6h6.88v-51.6h51.6v-6.88h-51.6v-51.6z"></path></g></g></svg>
+        </div>
+
+        <a class="nav-bar-icon" href="f.html">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="100" height="100"viewBox="0 0 172 172"style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M85.87235,3.62813c-0.72195,0.0249 -1.41775,0.27642 -1.98875,0.71891l-79.12,61.7386c-1.49911,1.16886 -1.76683,3.33167 -0.59797,4.83078c1.16886,1.49911 3.33167,1.76683 4.83078,0.59797l4.76359,-3.71547v90.4411c0.00019,1.89978 1.54022,3.43981 3.44,3.44h47.58219c0.37149,0.0614 0.75054,0.0614 1.12203,0h40.15797c0.37149,0.0614 0.75054,0.0614 1.12203,0h47.61578c1.89978,-0.00019 3.43981,-1.54022 3.44,-3.44v-90.4411l4.7636,3.71547c0.96974,0.75623 2.26928,0.93763 3.40904,0.47586c1.13976,-0.46177 1.94657,-1.49654 2.11649,-2.71449c0.16992,-1.21795 -0.32287,-2.43403 -1.29273,-3.19012l-26.1964,-20.43844v-25.00719h-20.64v8.89562l-32.2836,-25.18859c-0.64007,-0.49632 -1.43474,-0.7509 -2.24406,-0.71891zM86,11.42859l65.36,51.00203v92.36937h-41.28v-65.36h-48.16v65.36h-41.28v-92.36937zM127.28,27.52h6.88v12.7589l-6.88,-5.375zM68.8,96.32h34.4v58.48h-34.4z"></path></g></g></svg>
+        </div>
+        </a>
+
+        <a class="nav-bar-icon" href="g.html">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M72.24,10.32c-32.26344,0 -58.48,26.21656 -58.48,58.48c0,32.26344 26.21656,58.48 58.48,58.48c12.76563,0 24.56375,-4.11187 34.185,-11.0725l45.2575,45.15l9.675,-9.675l-44.72,-44.8275c8.78813,-10.23937 14.0825,-23.52906 14.0825,-38.055c0,-32.26344 -26.21656,-58.48 -58.48,-58.48zM72.24,17.2c28.54125,0 51.6,23.05875 51.6,51.6c0,28.54125 -23.05875,51.6 -51.6,51.6c-28.54125,0 -51.6,-23.05875 -51.6,-51.6c0,-28.54125 23.05875,-51.6 51.6,-51.6z"></path></g></g></svg>
+        </div>
+        </a>
+
+      </div>
+    </div>
+  </body>
+</html>
