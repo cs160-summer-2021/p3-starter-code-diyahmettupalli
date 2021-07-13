@@ -1,0 +1,102 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static '/vendors/bootstrap/css/bootstrap.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}" />
+
+    <script src="{% static '/vendors/jquery/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static '/vendors/jquery-ui/jquery-ui.min.js' %}"></script>
+
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .row {
+        height: 15%;
+        font-size: 3em;
+        padding: 7%;
+      }
+      .col {
+        background-color: rgba(231, 231, 231, 1);
+        text-align: center;
+        border-radius: 50px;
+        width: 20%;
+      }
+      .space {
+        background-color: white;
+        text-align: center;
+        border-radius: 50px;
+        width: 50%;
+      }
+
+      .picture {
+        height: 23%;
+        font-size: 6em;
+        text-align: center;
+        margin-top: 10%;
+        font-weight: bold;
+      }
+
+      .circle {
+        background: rgba(231, 231, 231, 1);
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+      }
+
+      .profile {
+        padding: 30%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-size: 0.8em;
+        margin-bottom: 5%;
+      }
+      .set-up-button {
+        background-color: rgba(128, 125, 125, 1);
+        font-size: 3em;
+        text-align: center;
+        border-radius: 50px;
+        background: rgba(231, 231, 231, 1);
+      }
+      .name {
+        padding: 20%;
+        padding-top: 2%;
+      }
+      .name-button {
+        background-color: rgba(196, 196, 196, 1);
+        font-size: 3em;
+        text-align: center;
+        border-radius: 50px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="heading row">
+      <div class="skip col">skip</div>
+      <div class="space"></div>
+      <div class="next col">next</div>
+      </div>
+    <div class="picture">
+      <div class="circle"></div>
+    </div>
+    <div class="profile">
+      <div class="set-up-button">
+        + add profile picture
+      </div>
+      </div>
+    <div class="name">
+      <div class="name-button">
+        . . .what's your name?
+      </div>
+    </div>
+  </body>
+</html>

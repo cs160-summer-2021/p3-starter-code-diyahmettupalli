@@ -1,0 +1,117 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static '/vendors/bootstrap/css/bootstrap.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}" />
+
+    <script src="{% static '/vendors/jquery/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static '/vendors/jquery-ui/jquery-ui.min.js' %}"></script>
+
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .row {
+        height: 15%;
+        font-size: 3em;
+        padding: 7%;
+      }
+      .col {
+        background-color: rgba(231, 231, 231, 1);
+        text-align: center;
+        border-radius: 50px;
+        width: 20%;
+      }
+      .space {
+        background-color: white;
+        text-align: center;
+        border-radius: 50px;
+        width: 50%;
+      }
+
+      .question {
+        font-size: 4em;
+        text-align: center;
+        margin-top: 5%;
+        font-weight: 1000;
+      }
+
+      .description {
+        font-size: 4em;
+        text-align: center;
+        font-size: 2.5em;
+      }
+      .vibe {
+        height: 100%;
+        padding: 7%;
+        padding-left: 15%;
+        padding-right: 15%;
+      }
+      .palette {
+        height: 20%;
+        border-radius: 20px;
+      }
+      .name {
+        text-align: center;
+        height: 30%;
+        font-size: 2.5em;
+        padding: 1.3%;
+        font-weight: 1000;
+      }
+      .box {
+        width: 20%;
+        height: 50%;
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="heading row">
+      <div class="skip col">skip</div>
+      <div class="space"></div>
+      <div class="next col">next</div>
+    </div>
+    <div class="question">what's your vibe?</div>
+    <div class="description">(choose up to 3)</div>
+    <div class="vibe">
+      <div class="palette">
+        <div class="name" style="background-color:#E8E8E8">easter</div>
+        <div class="color box" style="background-color:#CDB4DB"></div>
+        <div class="color box" style="background-color:#FFC8DD"></div>
+        <div class="color box" style="background-color:#FFAFCC"></div>
+        <div class="color box" style="background-color:#BDE0FE"></div>
+        <div class="color box" style="background-color:#A2D2FF"></div>
+      </div>
+      <div class="palette">
+        <div class="name" style="background-color:#838383">nautica</div>
+        <div class="color box" style="background-color:#E63946"></div>
+        <div class="color box" style="background-color:#F1FAEE"></div>
+        <div class="color box" style="background-color:#A8DADC"></div>
+        <div class="color box" style="background-color:#457B9D"></div>
+        <div class="color box" style="background-color:#1D3557"></div>
+      </div>
+      <div class="palette">
+        <div class="name" style="background-color:#E8E8E8">camp</div>
+        <div class="color box" style="background-color:#7FB685"></div>
+        <div class="color box" style="background-color:#426A5A"></div>
+        <div class="color box" style="background-color:#EF6F6C"></div>
+        <div class="color box" style="background-color:#DDAE7E"></div>
+        <div class="color box" style="background-color:#F2C57C"></div>
+      </div>
+      <div class="palette">
+        <div class="name" style="background-color:#E8E8E8">neutral</div>
+        <div class="color box" style="background-color:#EEE2DF"></div>
+        <div class="color box" style="background-color:#C89F9C"></div>
+        <div class="color box" style="background-color:#C97C5D"></div>
+        <div class="color box" style="background-color:#B36A5E"></div>
+        <div class="color box" style="background-color:#9D8189"></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static '/vendors/bootstrap/css/bootstrap.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}" />
+
+    <script src="{% static '/vendors/jquery/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static '/vendors/jquery-ui/jquery-ui.min.js' %}"></script>
+
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .row {
+        height: 15%;
+        font-size: 3em;
+        padding: 7%;
+      }
+      .col {
+        background-color: rgba(231, 231, 231, 1);
+        text-align: center;
+        border-radius: 50px;
+        width: 20%;
+      }
+      .space {
+        background-color: white;
+        text-align: center;
+        border-radius: 50px;
+        width: 50%;
+      }
+
+      .question {
+        font-size: 4em;
+        text-align: center;
+        margin-top: 5%;
+        font-weight: 1000;
+      }
+
+      .description {
+        font-size: 4em;
+        text-align: center;
+        font-size: 2.5em;
+      }
+      .interests {
+        height: 100%;
+        padding: 7%;
+        background-color: red;
+      }
+      .palette {
+        height: 20%;
+        border-radius: 20px;
+      }
+      .name {
+        text-align: center;
+        height: 30%;
+        font-size: 2.5em;
+        padding: 1.3%;
+        font-weight: 1000;
+      }
+      .box {
+        width: 33%;
+        height: 50%;
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="heading row">
+      <div class="skip col">skip</div>
+      <div class="space"></div>
+      <div class="next col">next</div>
+    </div>
+    <div class="question">what are your interests?</div>
+    <div class="description">(choose up to 5)</div>
+    <div class="interests">
+      <div class="row1">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <div class="row1">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <div class="row1">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <div class="row1">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+    </div>
+  </body>
+</html>
