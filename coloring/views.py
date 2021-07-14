@@ -9,6 +9,18 @@ def demo(request):
 def new_interaction(request):
     return render(request, 'coloring/new_interaction.html')
 
+def a(request):
+    return render(request, 'coloring/a.html')
+
+def b(request):
+    return render(request, 'coloring/b.html')
+
+def c(request):
+    return render(request, 'coloring/c.html')
+
+def d(request):
+    return render(request, 'coloring/d.html')
+
 def e(request):
     return render(request, 'coloring/e.html')
 
