@@ -36,8 +36,7 @@ def h(request):
 def i(request):
     return render(request, 'coloring/i.html')
 
-def j(request):
-    return render(request, 'coloring/j.html')
+
 
 def k(request):
     return render(request, 'coloring/k.html')
